@@ -1,0 +1,8 @@
+# Production TensorFlow workflow (Python 3.11 or 3.12 recommended).
+tensorflow==2.20.0
+keras==3.13.2
+numpy==1.26.4
+pandas>=2.2,<3.0
+scikit-learn>=1.5,<1.8
+scipy>=1.14,<1.17
+openpyxl==3.1.5
