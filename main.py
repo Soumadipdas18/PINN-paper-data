@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the PRNN workflow and export exactly 23 worksheets to revised_model_data.xlsx."""
+"""Run the PRNN workflow and export exactly 23 worksheets to results_all.xlsx."""
 from __future__ import annotations
 
 import argparse
