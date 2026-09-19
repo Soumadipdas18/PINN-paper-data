@@ -102,7 +102,7 @@ def run_pipeline(options):
         'check': 'SOFTWARE CHECK ONLY: reduced training-data subset; not manuscript results.',
         'full': 'PRNN model results for thermal sterilization of canned solid-liquid foods.',
     }[options.mode]
-    workbook=options.output/'revised_model_data.xlsx'
+    workbook=options.output/'results_all.xlsx'
     manifest,verification=write_workbook(tables,workbook,provenance=provenance)
     stats=runner.reuse_statistics()
     report={'mode':options.mode,'software_check_only':options.mode=='check','backend':backend.environment,'workbook':str(workbook),'verification':verification,**stats,'wall_seconds':time.perf_counter()-start,'full_research_training_completed':options.mode=='full'}
