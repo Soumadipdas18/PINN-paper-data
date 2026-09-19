@@ -1,0 +1,49 @@
+Section,Parameter,Value,Units or definition
+Dataset,Simulation cases,10526,cases
+Dataset,Split seed,20260908,
+Dataset,Training cases,7368,cases
+Dataset,Validation cases,1579,cases
+Dataset,Untouched test cases,1579,cases
+Process target,F0 target,3.0,min
+Process target,Design margin,0.3,min
+Process target,Design threshold,3.3,min
+Process target,Reference temperature,121.1,degC
+Process target,Lethality z-value,10.0,degC
+Stages A-D,Search seed,42,
+Stages A-D,Fixed epochs per candidate,70,epochs
+Stage A,Resolution selection rule,Smallest resolution within 1% of the lowest validation score.,
+Stage E,Repeat seeds,"17, 42",
+Stage E,Fixed epochs per candidate,70,epochs
+Stage E,PRNN_LSTM selected epochs,62,epochs
+Stage E,data_LSTM selected epochs,62,epochs
+Stage E,GRU selected epochs,54,epochs
+Stage E,time_conditioned_MLP selected epochs,54,epochs
+Stage E,Validation winner,PRNN_LSTM,
+Final model,Training seed,42,
+Final model,Fixed training epochs,62,epochs
+Final model,model_kind,lstm,
+Final model,n_heat,200,
+Final model,n_cool,200,
+Final model,units,192,
+Final model,encoder_units,192,
+Final model,dropout,0.0,
+Final model,lambda_phys,0.5,
+Final model,learning_rate,0.001,
+Final model,batch_size,64,
+Final model,temperature_weight,2.0,
+Final model,logF_weight,1.0,
+Final model,retention_weight,1.0,
+Final model,initial_condition_weight,0.1,
+Final model,stage_continuity_weight,0.1,
+Final model,Parameter count,806212,parameters
+Final model,Training time,2115.128327243998,s
+Structured holdouts,Training seeds,"17, 42",
+Structured holdouts,Fixed epochs per run,62,epochs
+Hardware,GPU devices,/physical_device:GPU:0,
+Hardware,Distributed replicas,1,
+Hardware,Compute policy,mixed_float16,
+Software,python,3.12.11,
+Software,tensorflow,2.20.0,
+Software,keras,3.13.2,
+Runtime,CFD throughput assumption,17.28,cases/hour (assumed)
+Runtime,Sequential-equivalent dataset-generation estimate,609.1435185185185,hours (sequential estimate)

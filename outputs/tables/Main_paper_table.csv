@@ -1,0 +1,9 @@
+Output,Metric,Value
+SHZ temperature trajectory,RMSE (degC),1.2885432243347168
+SHZ temperature trajectory,MAE (degC),0.37012436985969543
+Direct log10(F),RMSE,0.005609557032585144
+Direct F,MAPE (%),0.9239432401955128
+Trajectory-derived log10(F),RMSE,0.0057217953726649284
+Direct vs trajectory-derived log10(F),RMSE,0.0014933616621419787
+Ascorbic-acid retention index,RMSE,0.0004032789438497275
+Ascorbic-acid retention index,MAE,0.00025473471032455564

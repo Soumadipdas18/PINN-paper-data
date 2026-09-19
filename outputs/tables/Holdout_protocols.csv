@@ -1,0 +1,5 @@
+protocol,protocol_label,interpretation,definition,train_cases,validation_cases,test_cases
+random_interpolation,Random interpolation,In-domain interpolation control,Stratified 70/15/15 split,7368,1579,1579
+retort_temperature_band,Withheld temperature band,Prediction across an unsampled internal temperature band,128 <= temp_retort <= 132 degC,6865,1472,2189
+high_temperature_short_heating_corner,Withheld high-T/short-time corner,Prediction in an excluded operating-space corner,temp_retort >= 136 degC and time_heat <= 8 min,8305,1780,441
+domain_boundary_shell,Withheld domain boundaries,Prediction toward excluded edges of the defined domain,Any input within the outer 5% of its prescribed range: CUT <= 1.2 or >= 4.8 min; time_heat <= 5.75 or >= 19.25 min; time_cool <= 1.2 or >= 4.8 min; temp_retort <= 121 or >= 139 degC,5615,1204,3707

@@ -5,26 +5,26 @@ env/
 __pycache__/
 *.py[cod]
 
-
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-.keras/
+.keras
+.idea
+.vscode
+.lightning_studio
 
-.idea/
-.vscode/
+.cursor-server
+.vscode-server
+.windsurf-server
 
-.lightning_studio/
+outputs/*
+!outputs/results_all.xlsx
+!outputs/tables/
+!outputs/tables/**
 
-.cursor-server/
-.vscode-server/
-.windsurf-server/
-
-outputs/
 outputs_check/
 outputs_*/
-
 
 *.tmp
 *.tmp.*

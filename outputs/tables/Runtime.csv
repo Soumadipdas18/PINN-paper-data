@@ -1,0 +1,2 @@
+training_seconds,inference_seconds_per_case,CFD_cases_per_hour_assumption,CFD_seconds_per_case_assumption,inference_speedup_over_CFD,training_break_even_cases
+2115.128327243998,0.022786478977834722,17.28,208.33333333333331,9142.848859448057,10.153726535617192
