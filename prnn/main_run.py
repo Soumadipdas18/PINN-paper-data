@@ -49,10 +49,10 @@ def error_trend_table(bundle,idx,p):
 
 def design_tradeoff(runner,model,config,norm,splits,margin):
     """First feasible grid point plus local bracket refinement, not a global optimum."""
-    xtrain=runner.bundle.x[splits['train']]
-    lower=xtrain.min(axis=0); upper=xtrain.max(axis=0)
-    retorts=np.linspace(120,140,21)
-    heating=np.linspace(max(5,float(lower[1])),min(20,float(upper[1])),301)
+    lower = INPUT_LOWER_BOUNDS.astype(np.float32)
+    upper = INPUT_UPPER_BOUNDS.astype(np.float32)
+    retorts = np.linspace(float(lower[3]), float(upper[3]), 21)
+    heating = np.linspace(float(lower[1]), float(upper[1]), 301)
     threshold=F_SAFETY_THRESHOLD_MIN+margin
     def predict(x):
         xs=((x-np.asarray(norm.x_mean))/np.asarray(norm.x_std)).astype(np.float32)
