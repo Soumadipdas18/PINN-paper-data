@@ -4,7 +4,7 @@
 
 This repository implements the physics regularized recurrent neural network (PRNN) used to model thermal sterilization of canned peas in water. The model maps four operating conditions to the slowest heating zone (SHZ) temperature history, a direct F value, a trajectory derived F value, and a bounded model based ascorbic acid retention index.
 
-The workflow performs validation based model selection, final test evaluation, and structured holdout comparisons. It produces `outputs/revised_model_data.xlsx` with 23 worksheets containing the numerical results and data used for manuscript tables and figures. The repository exports numerical data only and does not generate figures.
+The workflow performs validation based model selection, final test evaluation, and structured holdout comparisons. It produces `outputs/results_all.xlsx` with 23 worksheets containing the numerical results and data used for manuscript tables and figures. The repository exports numerical data only and does not generate figures.
 
 The dataset contains 10,526 CFD simulations. The four operating inputs are come up time, heating time, cooling time, and retort temperature.
 
@@ -305,13 +305,13 @@ The main output structure is:
 
 ```text
 outputs/
-├── revised_model_data.xlsx
+├── results_all.xlsx
 ├── tables/
 ├── models/
 └── _internal/
 ```
 
-`revised_model_data.xlsx` is the main numerical result workbook.
+`results_all.xlsx` is the main numerical result workbook.
 
 `tables/` contains a CSV copy of each workbook sheet.
 
