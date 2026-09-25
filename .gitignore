@@ -23,7 +23,7 @@ __pycache__/
 outputs/
 
 outputs_check/
-outputs_*/
+
 
 *.tmp
 *.tmp.*
