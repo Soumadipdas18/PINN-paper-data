@@ -1,0 +1,16 @@
+{
+  "model_kind": "lstm",
+  "n_heat": 200,
+  "n_cool": 200,
+  "units": 192,
+  "encoder_units": 192,
+  "dropout": 0.0,
+  "lambda_phys": 0.5,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "temperature_weight": 2.0,
+  "logF_weight": 1.0,
+  "retention_weight": 1.0,
+  "initial_condition_weight": 0.1,
+  "stage_continuity_weight": 0.1
+}

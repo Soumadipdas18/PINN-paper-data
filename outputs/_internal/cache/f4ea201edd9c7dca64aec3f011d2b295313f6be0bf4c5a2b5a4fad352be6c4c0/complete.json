@@ -1,0 +1,59 @@
+{
+  "signature": {
+    "dataset_sha256": "e7addf07b2a0e3df6480f62795715e14e89868ec51fc6b817943da4ba32b3ac1",
+    "source_sha256": "5dfce861c146f30a157da0a634f86cf0f125a6661dca7669c17dfae8b0e67b97",
+    "config": {
+      "model_kind": "lstm",
+      "n_heat": 200,
+      "n_cool": 200,
+      "units": 128,
+      "encoder_units": 128,
+      "dropout": 0.1,
+      "lambda_phys": 0.5,
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "temperature_weight": 1.0,
+      "logF_weight": 1.0,
+      "retention_weight": 1.0,
+      "initial_condition_weight": 0.1,
+      "stage_continuity_weight": 0.1
+    },
+    "seed": 42,
+    "epochs": 70,
+    "restore_best_validation_weights": true,
+    "splits": {
+      "train": "341eb1f8d04ccf7924544c4fa16b2b10aba98a3a915238ff444674cbedd3bcc2",
+      "validation": "614049222d56fdfeb1416dbf883ce7044ebd493da883b467328c9f828a364b24",
+      "test": "ee10ced8c90f7b861d66f14832f77c51d58ea0c06d90a79fbb86f81cf2b3952c"
+    },
+    "environment": {
+      "backend": "tensorflow",
+      "tensorflow": "2.20.0",
+      "keras": "3.13.2",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "python": "3.12.11 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:09:17) [GCC 11.2.0]",
+      "platform": "Linux-6.8.0-1067-gcp-x86_64-with-glibc2.39",
+      "gpu_devices": [
+        "/physical_device:GPU:0"
+      ],
+      "replicas": 1,
+      "precision": "mixed_float16"
+    },
+    "mode": "full",
+    "fit_context": "shared",
+    "evaluate_validation": true
+  },
+  "run_name": "resolution_200_200",
+  "files": {
+    "model.keras": "a74f2cfd69c6a2dee5d63e58a7f70d88d9cfd7999cb7ed5f8baa418cdeaa7e3c",
+    "history.csv": "14c624692d2d591db16c615354aa69689fd6167edc6f84935ddd1a4ee7caf7a1",
+    "normalization.json": "7fcb320d983d94b521987a5f684925b4267cc2008109c1eb7adc0a5be668f431",
+    "validation_metrics.json": "a928ec028d5f35da0a90aeffe3bb54259eb8fe515b9d6c6dc912f16572a2fc0a",
+    "weighted_losses.csv": "b37acb785f35b85931a12774bcace50060193414f1a81ce9522a818e7e893bcc",
+    "validation_predictions.npz": "9356a7457d23ef0a623f5f2557664c223c49d60223db8347080edcc99c5c055b"
+  },
+  "training_seconds": 1836.1131684309998,
+  "best_epoch": 47,
+  "parameter_count": 361348
+}

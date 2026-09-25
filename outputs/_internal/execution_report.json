@@ -1,0 +1,63 @@
+{
+  "mode": "full",
+  "software_check_only": false,
+  "backend": {
+    "backend": "tensorflow",
+    "tensorflow": "2.20.0",
+    "keras": "3.13.2",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "python": "3.12.11 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:09:17) [GCC 11.2.0]",
+    "platform": "Linux-6.8.0-1067-gcp-x86_64-with-glibc2.39",
+    "gpu_devices": [
+      "/physical_device:GPU:0"
+    ],
+    "replicas": 1,
+    "precision": "mixed_float16"
+  },
+  "workbook": "/teamspace/studios/this_studio/outputs/revised_model_data.xlsx",
+  "verification": {
+    "passed": true,
+    "sheet_count": 23,
+    "sheets": [
+      "Run setup",
+      "Stages A-D runs",
+      "Resolution sensitivity",
+      "Stage E runs",
+      "Stage E summary",
+      "Main paper table",
+      "Main test metrics",
+      "Main training history",
+      "Main trajectories",
+      "Trajectory metadata",
+      "Main predictions",
+      "Error trends",
+      "Design tradeoff",
+      "Attention profile",
+      "Runtime",
+      "Holdout protocols",
+      "Holdout runs",
+      "Holdout summary",
+      "Distance bins runs",
+      "Distance bins summary",
+      "Holdout predictions",
+      "Holdout assignments",
+      "Data split"
+    ],
+    "table_count": 23,
+    "cells_compared": 905942,
+    "nonempty_data_cells": 905903,
+    "unexpected_formulas": 0,
+    "error_count": 0,
+    "numeric_relative_tolerance": 2e-14,
+    "numeric_absolute_tolerance": 1e-15,
+    "errors": []
+  },
+  "training_executions_this_invocation": 0,
+  "training_reuses_this_invocation": 32,
+  "test_forward_passes_this_invocation": 0,
+  "test_prediction_reuses_this_invocation": 9,
+  "unique_training_seconds_this_invocation": 0,
+  "wall_seconds": 576.5686927420002,
+  "full_research_training_completed": true
+}

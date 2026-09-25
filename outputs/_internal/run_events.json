@@ -1,0 +1,242 @@
+[
+  {
+    "event": "reuse_training",
+    "name": "resolution_100_100",
+    "key": "4aa31712e12b0ba17ead0020c93488407856edf4df7296878515f4d5bafbe483",
+    "source": "resolution_100_100"
+  },
+  {
+    "event": "reuse_training",
+    "name": "resolution_200_200",
+    "key": "f4ea201edd9c7dca64aec3f011d2b295313f6be0bf4c5a2b5a4fad352be6c4c0",
+    "source": "resolution_200_200"
+  },
+  {
+    "event": "reuse_training",
+    "name": "resolution_300_300",
+    "key": "8923d1c96b0157753c45f637095751b243026fd8917a492ce5562cacdfe1aa3a",
+    "source": "resolution_300_300"
+  },
+  {
+    "event": "reuse_training",
+    "name": "capacity_u128_d0.00",
+    "key": "c0a7e2e5c0eaac04f1675d55b08987835ff172704766969650a04c866315242e",
+    "source": "capacity_u128_d0.00"
+  },
+  {
+    "event": "reuse_training",
+    "name": "capacity_u128_d0.10",
+    "key": "f4ea201edd9c7dca64aec3f011d2b295313f6be0bf4c5a2b5a4fad352be6c4c0",
+    "source": "resolution_200_200"
+  },
+  {
+    "event": "reuse_training",
+    "name": "capacity_u192_d0.00",
+    "key": "39116c2b2c4e67ce8f5e2a18629d3ab2fdd0e93336329dfb4a24e79d5a52b011",
+    "source": "capacity_u192_d0.00"
+  },
+  {
+    "event": "reuse_training",
+    "name": "capacity_u192_d0.10",
+    "key": "601fd1756d24b91fbd85a421e9956ffc57199ed0416fbbe11e3e5d00b8cc736c",
+    "source": "capacity_u192_d0.10"
+  },
+  {
+    "event": "reuse_training",
+    "name": "weights_T1_F1_Q1",
+    "key": "39116c2b2c4e67ce8f5e2a18629d3ab2fdd0e93336329dfb4a24e79d5a52b011",
+    "source": "capacity_u192_d0.00"
+  },
+  {
+    "event": "reuse_training",
+    "name": "weights_T1_F2_Q1",
+    "key": "0c19ec45786ced2ed01db9cfcee15278f199984cfc5149ba72e10a10576a94ce",
+    "source": "weights_T1_F2_Q1"
+  },
+  {
+    "event": "reuse_training",
+    "name": "weights_T1_F1_Q2",
+    "key": "0fcdf4e95a9249b0d997cd646c5dd05509955accf23949aa7620bbdb98c55590",
+    "source": "weights_T1_F1_Q2"
+  },
+  {
+    "event": "reuse_training",
+    "name": "weights_T2_F1_Q1",
+    "key": "3c880fd5322529a66c6eb0d83bdfde23981ef5553b41f2706cb6fd86d7ad937a",
+    "source": "weights_T2_F1_Q1"
+  },
+  {
+    "event": "reuse_training",
+    "name": "lambda_0",
+    "key": "48b622fd4a7b7f9434a30e33c462799a72c7e0c364bedd2457801009e0cb16ef",
+    "source": "lambda_0"
+  },
+  {
+    "event": "reuse_training",
+    "name": "lambda_0.1",
+    "key": "07e1c2d68053bf1e0645c97ea70d6ec4e9050ed0d15965eef52126fcb84ba2af",
+    "source": "lambda_0.1"
+  },
+  {
+    "event": "reuse_training",
+    "name": "lambda_0.5",
+    "key": "3c880fd5322529a66c6eb0d83bdfde23981ef5553b41f2706cb6fd86d7ad937a",
+    "source": "weights_T2_F1_Q1"
+  },
+  {
+    "event": "reuse_training",
+    "name": "lambda_1",
+    "key": "d60dec9711465bf05e0fc0de32aadbb413a0bf8638c00b19e9d8d49f21486acc",
+    "source": "lambda_1"
+  },
+  {
+    "event": "reuse_training",
+    "name": "stage_E_PRNN_LSTM_seed17",
+    "key": "65e74fa255dbb399ec54d1aed4bb7d2546aa729631591f74885e57e25ac0d7ae",
+    "source": "stage_E_PRNN_LSTM_seed17"
+  },
+  {
+    "event": "reuse_training",
+    "name": "stage_E_PRNN_LSTM_seed42",
+    "key": "3c880fd5322529a66c6eb0d83bdfde23981ef5553b41f2706cb6fd86d7ad937a",
+    "source": "weights_T2_F1_Q1"
+  },
+  {
+    "event": "reuse_training",
+    "name": "stage_E_data_LSTM_seed17",
+    "key": "36248a05158d5fdf8424e7bc3a752bdb6827d903df958a2b865d7f342a49e2eb",
+    "source": "stage_E_data_LSTM_seed17"
+  },
+  {
+    "event": "reuse_training",
+    "name": "stage_E_data_LSTM_seed42",
+    "key": "48b622fd4a7b7f9434a30e33c462799a72c7e0c364bedd2457801009e0cb16ef",
+    "source": "lambda_0"
+  },
+  {
+    "event": "reuse_training",
+    "name": "stage_E_GRU_seed17",
+    "key": "7c5b841f1d62cd8f96262f78939a45f5d17005a0efdc93d919bb8e694f1161b4",
+    "source": "stage_E_GRU_seed17"
+  },
+  {
+    "event": "reuse_training",
+    "name": "stage_E_GRU_seed42",
+    "key": "bc1d95af33065848ed1471c331653459926f2df0795bb6e99038e573a00fb445",
+    "source": "stage_E_GRU_seed42"
+  },
+  {
+    "event": "reuse_training",
+    "name": "stage_E_time_conditioned_MLP_seed17",
+    "key": "3faf706a6ea3f3edc91a512038905f70eb338d10d6c55b927e4ee690c002a520",
+    "source": "stage_E_time_conditioned_MLP_seed17"
+  },
+  {
+    "event": "reuse_training",
+    "name": "stage_E_time_conditioned_MLP_seed42",
+    "key": "5fa04cce19783a35fd1755cc2a20138e6e55b5befb4085aa7832a36c696bb245",
+    "source": "stage_E_time_conditioned_MLP_seed42"
+  },
+  {
+    "event": "selection_frozen"
+  },
+  {
+    "event": "reuse_training",
+    "name": "main_PRNN_LSTM",
+    "key": "aa224e5250cdec94bfca481ed7b2bb0ee045e2bdc53e5ce50862255371fb3431",
+    "source": "main_PRNN_LSTM"
+  },
+  {
+    "event": "reuse_test_prediction",
+    "key": "aa224e5250cdec94bfca481ed7b2bb0ee045e2bdc53e5ce50862255371fb3431",
+    "test_key": "d428c2b5f1ce884b17b583853436adbb2e9aaa9bceb5d6d7765a2415cdd45b14"
+  },
+  {
+    "event": "reuse_training",
+    "name": "random_interpolation_seed17",
+    "key": "7603f25849965ef5021c34789fce558c9a6edf257f47681be9b613f703d2f0bb",
+    "source": "random_interpolation_seed17"
+  },
+  {
+    "event": "reuse_test_prediction",
+    "key": "7603f25849965ef5021c34789fce558c9a6edf257f47681be9b613f703d2f0bb",
+    "test_key": "aa9cac783392468927c0c1166ddfd52ee084d0dad4b9ad1226fc7096b546a7c4"
+  },
+  {
+    "event": "reuse_training",
+    "name": "random_interpolation_seed42",
+    "key": "5a414c92dd74535b7f7a29240429d6ada7a69d49db8760c6b648f7bb1fee09e4",
+    "source": "random_interpolation_seed42"
+  },
+  {
+    "event": "reuse_test_prediction",
+    "key": "5a414c92dd74535b7f7a29240429d6ada7a69d49db8760c6b648f7bb1fee09e4",
+    "test_key": "9aa71a13a1d525d4b125c24b8f8924b34194962372eeb93fa51c0dc6cc606a75"
+  },
+  {
+    "event": "reuse_training",
+    "name": "retort_temperature_band_seed17",
+    "key": "237a36d43fd276317d194b31ca4f2ba3569d1c1345e1a69e071f474410dc90ac",
+    "source": "retort_temperature_band_seed17"
+  },
+  {
+    "event": "reuse_test_prediction",
+    "key": "237a36d43fd276317d194b31ca4f2ba3569d1c1345e1a69e071f474410dc90ac",
+    "test_key": "54b508952e0bdfc61e85845923f223d390c78678b7eb19f352658b2fc00d2986"
+  },
+  {
+    "event": "reuse_training",
+    "name": "retort_temperature_band_seed42",
+    "key": "4195a495ffec5102774306e92e40c76d3fdf3df51b6ae186ddca3b473853d149",
+    "source": "retort_temperature_band_seed42"
+  },
+  {
+    "event": "reuse_test_prediction",
+    "key": "4195a495ffec5102774306e92e40c76d3fdf3df51b6ae186ddca3b473853d149",
+    "test_key": "2db23b2ae052952d18253374966573466a49541d0b0fbd1abacb6bbfd9623cf6"
+  },
+  {
+    "event": "reuse_training",
+    "name": "high_temperature_short_heating_corner_seed17",
+    "key": "8ff0e4f93394dcc6ba95498cbf9b8173a8e79d38b07effb7e60ecdf0cbc33017",
+    "source": "high_temperature_short_heating_corner_seed17"
+  },
+  {
+    "event": "reuse_test_prediction",
+    "key": "8ff0e4f93394dcc6ba95498cbf9b8173a8e79d38b07effb7e60ecdf0cbc33017",
+    "test_key": "5454cf8b5b37162ef65f70a2dd6a52dd9fe7220dd12dfb1e1946db45a2f5c71b"
+  },
+  {
+    "event": "reuse_training",
+    "name": "high_temperature_short_heating_corner_seed42",
+    "key": "a7be02aa857f2926ba3d4138c0b92ae3612d8eace3dc0027d76ad23bc587ef3f",
+    "source": "high_temperature_short_heating_corner_seed42"
+  },
+  {
+    "event": "reuse_test_prediction",
+    "key": "a7be02aa857f2926ba3d4138c0b92ae3612d8eace3dc0027d76ad23bc587ef3f",
+    "test_key": "259f3e9ae8bfcb11225d155bd2ff2bf110177b9597f80c0b895d10ddf7c9b7a5"
+  },
+  {
+    "event": "reuse_training",
+    "name": "domain_boundary_shell_seed17",
+    "key": "52e73aae3a31b021089bad914f15f0df74736f50bcfac3c1fecb2ae0de55d24a",
+    "source": "domain_boundary_shell_seed17"
+  },
+  {
+    "event": "reuse_test_prediction",
+    "key": "52e73aae3a31b021089bad914f15f0df74736f50bcfac3c1fecb2ae0de55d24a",
+    "test_key": "ed78a33b1391cb857c5c09fe186ddd115bca204447c9b091475190ea93f334c9"
+  },
+  {
+    "event": "reuse_training",
+    "name": "domain_boundary_shell_seed42",
+    "key": "82abf9ac1b42f13d428118679b61f8c8dab5ec2d81c7f9a7bfe1deb283ec0991",
+    "source": "domain_boundary_shell_seed42"
+  },
+  {
+    "event": "reuse_test_prediction",
+    "key": "82abf9ac1b42f13d428118679b61f8c8dab5ec2d81c7f9a7bfe1deb283ec0991",
+    "test_key": "75611cf7cb37f0a4740ecb7b4480a46748854a3aed102c3b7f52dde1d5e7c1cd"
+  }
+]

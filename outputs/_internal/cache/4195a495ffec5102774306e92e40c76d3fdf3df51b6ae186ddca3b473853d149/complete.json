@@ -1,0 +1,58 @@
+{
+  "signature": {
+    "dataset_sha256": "e7addf07b2a0e3df6480f62795715e14e89868ec51fc6b817943da4ba32b3ac1",
+    "source_sha256": "5dfce861c146f30a157da0a634f86cf0f125a6661dca7669c17dfae8b0e67b97",
+    "config": {
+      "model_kind": "lstm",
+      "n_heat": 200,
+      "n_cool": 200,
+      "units": 192,
+      "encoder_units": 192,
+      "dropout": 0.0,
+      "lambda_phys": 0.5,
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "temperature_weight": 2.0,
+      "logF_weight": 1.0,
+      "retention_weight": 1.0,
+      "initial_condition_weight": 0.1,
+      "stage_continuity_weight": 0.1
+    },
+    "seed": 42,
+    "epochs": 62,
+    "restore_best_validation_weights": false,
+    "splits": {
+      "train": "35ad60b1ad6eb40edb7d1f11c4c55062242fad662f5272a68bcfb316e14ea3a9",
+      "validation": "1d3fde5e7bf52a60a7bbf0e6a64efd7d5b8cc54176d102a63428b6ed6882ce16",
+      "test": "787f26e1db9ad97b3dcc2a9b1ca9bc789f27309abb2187718f5caed6ec96d713"
+    },
+    "environment": {
+      "backend": "tensorflow",
+      "tensorflow": "2.20.0",
+      "keras": "3.13.2",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "python": "3.12.11 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:09:17) [GCC 11.2.0]",
+      "platform": "Linux-6.8.0-1067-gcp-x86_64-with-glibc2.39",
+      "gpu_devices": [
+        "/physical_device:GPU:0"
+      ],
+      "replicas": 1,
+      "precision": "mixed_float16"
+    },
+    "mode": "full",
+    "fit_context": "structured:retort_temperature_band",
+    "evaluate_validation": false
+  },
+  "run_name": "retort_temperature_band_seed42",
+  "files": {
+    "model.keras": "bca58f1e8132f8f55dd297cce13face010de35c9030ba2c79ceab4dfd4902b5a",
+    "history.csv": "cb1791aa4bc42454898282ca9f76fc6f1dffa88367a86ce5d0d0598df9c1ac5a",
+    "normalization.json": "18c3297d39987a97b59d0d40268713fe75c2cdeb4a3fac8d7fb30e1cfa81662c",
+    "validation_metrics.json": "ff69ff45ecd83d948cbf872b184844f8198934f449f054c49ee7bc0684164205",
+    "weighted_losses.csv": "1f1b78a744d405b79c9c3a60179ce450dacd488fdacd641a80dc970f0859afbb"
+  },
+  "training_seconds": 1959.3956030999907,
+  "best_epoch": 59,
+  "parameter_count": 806212
+}

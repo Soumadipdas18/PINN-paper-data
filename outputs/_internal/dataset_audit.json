@@ -1,0 +1,19 @@
+{
+  "rows": 10526,
+  "dataset_sha256": "e7addf07b2a0e3df6480f62795715e14e89868ec51fc6b817943da4ba32b3ac1",
+  "missing_or_nonfinite_scalar_values": 0,
+  "missing_simulation_ids": 0,
+  "duplicate_simulation_ids": 0,
+  "duplicate_input_rows": 0,
+  "nonpositive_F": 0,
+  "retention_outside_0_1": 0,
+  "CUT_min": 1.0,
+  "CUT_max": 5.0,
+  "time_heat_min": 5.0,
+  "time_heat_max": 20.0,
+  "time_cool_min": 1.0,
+  "time_cool_max": 5.0,
+  "temp_retort_min": 120.00027465820312,
+  "temp_retort_max": 139.9984588623047,
+  "retention_spatial_domain": "Not independently verifiable from these scalar labels; confirm pea-only volume averaging in the CFD export."
+}

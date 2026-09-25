@@ -1,0 +1,44 @@
+{
+  "selected_prnn_config": {
+    "model_kind": "lstm",
+    "n_heat": 200,
+    "n_cool": 200,
+    "units": 192,
+    "encoder_units": 192,
+    "dropout": 0.0,
+    "lambda_phys": 0.5,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "temperature_weight": 2.0,
+    "logF_weight": 1.0,
+    "retention_weight": 1.0,
+    "initial_condition_weight": 0.1,
+    "stage_continuity_weight": 0.1
+  },
+  "validation_winner": "PRNN_LSTM",
+  "final_reported_model": "PRNN_LSTM",
+  "final_seed": 42,
+  "final_epochs": 62,
+  "epochs_by_model": {
+    "PRNN_LSTM": 62,
+    "data_LSTM": 62,
+    "GRU": 54,
+    "time_conditioned_MLP": 54
+  },
+  "F_target_min": 3.0,
+  "design_margin_min": 0.3,
+  "margin_diagnostic": {
+    "near_target_counts_by_seed": [
+      62,
+      62
+    ],
+    "basis": "maximum across seeds of validation near-target p95 positive overprediction of min(F_direct,F_traj)",
+    "fallback_floor_used": false
+  },
+  "seeds": [
+    17,
+    42
+  ],
+  "test_examined_during_selection": false,
+  "prnn_is_validation_winner": true
+}

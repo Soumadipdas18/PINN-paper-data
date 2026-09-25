@@ -1,0 +1,58 @@
+{
+  "signature": {
+    "dataset_sha256": "e7addf07b2a0e3df6480f62795715e14e89868ec51fc6b817943da4ba32b3ac1",
+    "source_sha256": "5dfce861c146f30a157da0a634f86cf0f125a6661dca7669c17dfae8b0e67b97",
+    "config": {
+      "model_kind": "lstm",
+      "n_heat": 200,
+      "n_cool": 200,
+      "units": 192,
+      "encoder_units": 192,
+      "dropout": 0.0,
+      "lambda_phys": 0.5,
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "temperature_weight": 2.0,
+      "logF_weight": 1.0,
+      "retention_weight": 1.0,
+      "initial_condition_weight": 0.1,
+      "stage_continuity_weight": 0.1
+    },
+    "seed": 42,
+    "epochs": 62,
+    "restore_best_validation_weights": false,
+    "splits": {
+      "train": "7bdc83df3cdb94119eda08cb95a4fce36679c18bc578f36bac23a03b5efe3222",
+      "validation": "6ddd742cbbc496823ac88735d9dab4784d0ebbd825673986713a6120813402f3",
+      "test": "58f13d0a8245c7183ea79d4cf24e6633ed298671cb6f89a2d6b9b7837f5cc05a"
+    },
+    "environment": {
+      "backend": "tensorflow",
+      "tensorflow": "2.20.0",
+      "keras": "3.13.2",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "python": "3.12.11 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:09:17) [GCC 11.2.0]",
+      "platform": "Linux-6.8.0-1067-gcp-x86_64-with-glibc2.39",
+      "gpu_devices": [
+        "/physical_device:GPU:0"
+      ],
+      "replicas": 1,
+      "precision": "mixed_float16"
+    },
+    "mode": "full",
+    "fit_context": "structured:high_temperature_short_heating_corner",
+    "evaluate_validation": false
+  },
+  "run_name": "high_temperature_short_heating_corner_seed42",
+  "files": {
+    "model.keras": "6b14b3b49098d02ff7adb45159fff8edbf8bf2be764a72ca492915a78ddb0878",
+    "history.csv": "282a85557573be832292087838343d9174c8ef9234a156cde667b0664aaf25c2",
+    "normalization.json": "55af5455aadcfff26d3be546a5056bd8e52d06a98f70e62afaa5b811ce5efd6f",
+    "validation_metrics.json": "7e685901199d708779158ee3488030806cad1498becb573b6b2ab75fd0217b4f",
+    "weighted_losses.csv": "17b64e94c6ea80d17b21292a6159657ff9dbfb9027513fa936d2fb836847227b"
+  },
+  "training_seconds": 2367.9212867219903,
+  "best_epoch": 61,
+  "parameter_count": 806212
+}
