@@ -35,11 +35,6 @@ The input dataset is:
 dataset/dataset_all.csv
 ```
 
-A compressed version is also provided and can be used in the same way:
-
-```text
-dataset/dataset_all.csv.gz
-```
 
 ## Software check
 
