@@ -18,10 +18,9 @@ __pycache__/
 .vscode-server
 .windsurf-server
 
-outputs/*
-!outputs/results_all.xlsx
-!outputs/tables/
-!outputs/tables/**
+.gitattributes
+
+outputs/
 
 outputs_check/
 outputs_*/
